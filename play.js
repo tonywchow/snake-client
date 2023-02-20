@@ -1,10 +1,4 @@
-const {connect} = require('./client')
-const {setupInput} = require('./input')
-
-////structure as event handler:
-// conn.on('connect', () => {
-//   //doe that does something when the connection is first established
-// })
-
+const {connect} = require('./client');
+const {setupInput} = require('./input');
 console.log('Connecting ...');
-setupInput(connect());
+setupInput(connect());//the object returned by connect() is passed to setupInput function
