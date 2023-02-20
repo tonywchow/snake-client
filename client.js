@@ -17,6 +17,9 @@ const connect = () => {
     setTimeout(() =>{
       conn.write('Say: Let\'s GO!');
     }, 1000);
+    conn.on('data', (data) =>  {
+      console.log('Server: ', data);
+      });
   });
   return conn;
 };
