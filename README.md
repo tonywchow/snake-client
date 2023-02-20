@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Player Initials and Message"](/main/snake/assets/images/start.png)
-!["Gameplay"](/main/snake/assets/images/gameplay.png)
+!["Player Initials and Message"](./assets/images/start.png)
+!["Gameplay"](./assets/images/gameplay.png)
 
 
 ## Getting Started
